@@ -1,0 +1,419 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render a title 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container"
+      >
+        <h2
+          data-testid="title"
+        >
+          ReactJS Issues
+        </h2>
+        <ul
+          data-testid="issue-list"
+        >
+          <li>
+            [Beta] Remove runtime CSS-in-JS
+          </li>
+          <li>
+            [Beta] DocSearch Title Gets Escaped
+          </li>
+          <li>
+            [Beta] Issue in the navigation of the React Docs Page
+          </li>
+          <li>
+            Redux and functional components missing in react js
+          </li>
+          <li>
+            The issue is i have a component which is having search and select 
+          </li>
+          <li>
+            Clock examples use impure \`.toLocaleTimeString()\`
+          </li>
+          <li>
+            Always exited to hear newer updates 🔥 React 🚀
+          </li>
+          <li>
+            Switch CDN provider in documentation
+          </li>
+          <li>
+            dependencies
+          </li>
+          <li>
+            Add popular open source community: PrimeReact 
+          </li>
+          <li>
+            Update react testing doc section for react 18
+          </li>
+          <li>
+            React+Vite
+          </li>
+          <li>
+            Strict mode making newbie like me get confused on debugging.
+          </li>
+          <li>
+            How to avoid re-renders on history.push?
+          </li>
+          <li>
+            Update \`AUTHORS\` file
+          </li>
+          <li>
+            [Beta] Bug: Gutter text overlaps with sandpack code on mobile
+          </li>
+          <li>
+            Beta reactjs 404 & 500 Custom Error pages similarities
+          </li>
+          <li>
+            Clarification about multiple contexts on "Scaling Up with Reducer and Context" documentation page
+          </li>
+          <li>
+            pass the set state function to a non-descendent component 
+          </li>
+          <li>
+            Content issue on \`reactjs.org/tutorial/tutorial.html\`
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container"
+    >
+      <h2
+        data-testid="title"
+      >
+        ReactJS Issues
+      </h2>
+      <ul
+        data-testid="issue-list"
+      >
+        <li>
+          [Beta] Remove runtime CSS-in-JS
+        </li>
+        <li>
+          [Beta] DocSearch Title Gets Escaped
+        </li>
+        <li>
+          [Beta] Issue in the navigation of the React Docs Page
+        </li>
+        <li>
+          Redux and functional components missing in react js
+        </li>
+        <li>
+          The issue is i have a component which is having search and select 
+        </li>
+        <li>
+          Clock examples use impure \`.toLocaleTimeString()\`
+        </li>
+        <li>
+          Always exited to hear newer updates 🔥 React 🚀
+        </li>
+        <li>
+          Switch CDN provider in documentation
+        </li>
+        <li>
+          dependencies
+        </li>
+        <li>
+          Add popular open source community: PrimeReact 
+        </li>
+        <li>
+          Update react testing doc section for react 18
+        </li>
+        <li>
+          React+Vite
+        </li>
+        <li>
+          Strict mode making newbie like me get confused on debugging.
+        </li>
+        <li>
+          How to avoid re-renders on history.push?
+        </li>
+        <li>
+          Update \`AUTHORS\` file
+        </li>
+        <li>
+          [Beta] Bug: Gutter text overlaps with sandpack code on mobile
+        </li>
+        <li>
+          Beta reactjs 404 & 500 Custom Error pages similarities
+        </li>
+        <li>
+          Clarification about multiple contexts on "Scaling Up with Reducer and Context" documentation page
+        </li>
+        <li>
+          pass the set state function to a non-descendent component 
+        </li>
+        <li>
+          Content issue on \`reactjs.org/tutorial/tutorial.html\`
+        </li>
+      </ul>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Home should render an issue-list 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container"
+      >
+        <h2
+          data-testid="title"
+        >
+          ReactJS Issues
+        </h2>
+        <ul
+          data-testid="issue-list"
+        >
+          <li>
+            [Beta] Remove runtime CSS-in-JS
+          </li>
+          <li>
+            [Beta] DocSearch Title Gets Escaped
+          </li>
+          <li>
+            [Beta] Issue in the navigation of the React Docs Page
+          </li>
+          <li>
+            Redux and functional components missing in react js
+          </li>
+          <li>
+            The issue is i have a component which is having search and select 
+          </li>
+          <li>
+            Clock examples use impure \`.toLocaleTimeString()\`
+          </li>
+          <li>
+            Always exited to hear newer updates 🔥 React 🚀
+          </li>
+          <li>
+            Switch CDN provider in documentation
+          </li>
+          <li>
+            dependencies
+          </li>
+          <li>
+            Add popular open source community: PrimeReact 
+          </li>
+          <li>
+            Update react testing doc section for react 18
+          </li>
+          <li>
+            React+Vite
+          </li>
+          <li>
+            Strict mode making newbie like me get confused on debugging.
+          </li>
+          <li>
+            How to avoid re-renders on history.push?
+          </li>
+          <li>
+            Update \`AUTHORS\` file
+          </li>
+          <li>
+            [Beta] Bug: Gutter text overlaps with sandpack code on mobile
+          </li>
+          <li>
+            Beta reactjs 404 & 500 Custom Error pages similarities
+          </li>
+          <li>
+            Clarification about multiple contexts on "Scaling Up with Reducer and Context" documentation page
+          </li>
+          <li>
+            pass the set state function to a non-descendent component 
+          </li>
+          <li>
+            Content issue on \`reactjs.org/tutorial/tutorial.html\`
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container"
+    >
+      <h2
+        data-testid="title"
+      >
+        ReactJS Issues
+      </h2>
+      <ul
+        data-testid="issue-list"
+      >
+        <li>
+          [Beta] Remove runtime CSS-in-JS
+        </li>
+        <li>
+          [Beta] DocSearch Title Gets Escaped
+        </li>
+        <li>
+          [Beta] Issue in the navigation of the React Docs Page
+        </li>
+        <li>
+          Redux and functional components missing in react js
+        </li>
+        <li>
+          The issue is i have a component which is having search and select 
+        </li>
+        <li>
+          Clock examples use impure \`.toLocaleTimeString()\`
+        </li>
+        <li>
+          Always exited to hear newer updates 🔥 React 🚀
+        </li>
+        <li>
+          Switch CDN provider in documentation
+        </li>
+        <li>
+          dependencies
+        </li>
+        <li>
+          Add popular open source community: PrimeReact 
+        </li>
+        <li>
+          Update react testing doc section for react 18
+        </li>
+        <li>
+          React+Vite
+        </li>
+        <li>
+          Strict mode making newbie like me get confused on debugging.
+        </li>
+        <li>
+          How to avoid re-renders on history.push?
+        </li>
+        <li>
+          Update \`AUTHORS\` file
+        </li>
+        <li>
+          [Beta] Bug: Gutter text overlaps with sandpack code on mobile
+        </li>
+        <li>
+          Beta reactjs 404 & 500 Custom Error pages similarities
+        </li>
+        <li>
+          Clarification about multiple contexts on "Scaling Up with Reducer and Context" documentation page
+        </li>
+        <li>
+          pass the set state function to a non-descendent component 
+        </li>
+        <li>
+          Content issue on \`reactjs.org/tutorial/tutorial.html\`
+        </li>
+      </ul>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,25 +1,32 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
-
 import { useQuery } from "@apollo/client";
-import { GET_ISSUES_QUERY } from "@/utils/queries";
+import styles from "../styles/Home.module.css";
+import { GET_ISSUES_QUERY } from "@/graphql/queries";
+import { getRepositoriesIssues } from "@/graphql/__generated__/getRepositoriesIssues";
 
 const Home: NextPage = () => {
-  const { data, loading, error } = useQuery(GET_ISSUES_QUERY, {
-    variables: { owner: "reactjs", name: "reactjs.org" },
-  });
+  const { data, loading, error } = useQuery<getRepositoriesIssues>(
+    GET_ISSUES_QUERY,
+    {
+      variables: { owner: "reactjs", name: "reactjs.org" },
+    }
+  );
 
   if (loading) {
-    return <div>loading</div>;
+    return <div data-testid="loading">loading</div>;
   }
   if (error) {
     return <div>error</div>;
   }
-  
+
   return (
     <div className={styles.container}>
-      <h2>Hello World</h2>
+      <h2 data-testid="title">ReactJS Issues</h2>
+      <ul data-testid="issue-list">
+        {data?.repository?.issues.edges?.map((edge) => (
+          <li key={edge?.node?.title}>{edge?.node?.title}</li>
+        ))}
+      </ul>
     </div>
   );
 };
