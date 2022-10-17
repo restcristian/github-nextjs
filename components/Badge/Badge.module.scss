@@ -1,0 +1,13 @@
+.Badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: green;
+    color: white;
+
+    &.closed {
+        background-color: red;
+    }
+}

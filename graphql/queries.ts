@@ -7,6 +7,13 @@ export const GET_ISSUES_QUERY = gql`
         edges {
           node {
             title
+            author {
+              login
+              avatarUrl
+            }
+            createdAt
+            state
+            closedAt
           }
         }
       }
