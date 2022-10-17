@@ -3,9 +3,23 @@
 // @generated
 // This file was automatically generated and should not be edited.
 
+import { IssueState } from "./../../__generated__/globalTypes";
+
 // ====================================================
 // GraphQL query operation: getRepositoriesIssues
 // ====================================================
+
+export interface getRepositoriesIssues_repository_issues_edges_node_author {
+  __typename: "Bot" | "EnterpriseUserAccount" | "Mannequin" | "Organization" | "User";
+  /**
+   * The username of the actor.
+   */
+  login: string;
+  /**
+   * A URL pointing to the actor's public avatar.
+   */
+  avatarUrl: any;
+}
 
 export interface getRepositoriesIssues_repository_issues_edges_node {
   __typename: "Issue";
@@ -13,6 +27,22 @@ export interface getRepositoriesIssues_repository_issues_edges_node {
    * Identifies the issue title.
    */
   title: string;
+  /**
+   * The actor who authored the comment.
+   */
+  author: getRepositoriesIssues_repository_issues_edges_node_author | null;
+  /**
+   * Identifies the date and time when the object was created.
+   */
+  createdAt: any;
+  /**
+   * Identifies the state of the issue.
+   */
+  state: IssueState;
+  /**
+   * Identifies the date and time when the object was closed.
+   */
+  closedAt: any | null;
 }
 
 export interface getRepositoriesIssues_repository_issues_edges {

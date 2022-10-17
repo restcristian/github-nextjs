@@ -1,13 +1,18 @@
 {
   "extends": "next/core-web-vitals",
   "plugins": ["testing-library"],
-  "overrides": [
-    {
-      "files": [
-        "**/__tests__/**/*.[jt]s?(x)",
-        "**/?(*.)+(spec|test).[jt]s?(x)"
-      ],
-      "extends": ["plugin:testing-library/react"]
-    }
-  ]
+  "overrides": [{
+    "files": [
+      "**/__tests__/**/*.[jt]s?(x)",
+      "**/?(*.)+(spec|test).[jt]s?(x)"
+    ],
+    "extends": ["plugin:testing-library/react"]
+  }],
+  "rules": {
+    "testing-library/no-render-in-setup": [
+      "error", {
+        "allowTestingFrameworkSetupHook": "beforeEach"
+      }
+    ]
+  }
 }
