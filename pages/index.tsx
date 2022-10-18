@@ -3,10 +3,19 @@ import styles from "../styles/Home.module.css";
 import { Heading, IssueList } from "@/components";
 
 const Home: NextPage = () => {
+  const repositoryInfo = {
+    owner: "reactjs",
+    name: "reactjs.org",
+  };
+
   return (
     <div className={styles.container}>
-      <Heading title = "ReactJS Issues"/>
-      <IssueList repositoryName = "reactjs.org" repositoryOwner = "reactjs" />
+      <Heading title="ReactJS Issues" />
+      <IssueList
+        repositoryName={repositoryInfo.name}
+        repositoryOwner={repositoryInfo.owner}
+        showFilter
+      />
     </div>
   );
 };

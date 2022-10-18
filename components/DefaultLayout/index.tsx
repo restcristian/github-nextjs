@@ -12,9 +12,7 @@ export const DefaultLayout: React.FC<Props> = ({ children }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>React GithubNextJS</title>
       </Head>
-      <body>
         <main>{children}</main>
-      </body>
     </>
   );
 };
