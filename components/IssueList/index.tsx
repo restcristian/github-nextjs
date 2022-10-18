@@ -44,10 +44,6 @@ export const IssueList: React.FC<Props> = ({
     });
   }, [status, fetchIssues, repositoryName, repositoryOwner]);
 
-  if (error) {
-    return <div>error</div>;
-  }
-
   const onShowOpenChange = () => {
     setIsShowOpenIssuesChecked((prevState) => !prevState);
   };
@@ -55,6 +51,10 @@ export const IssueList: React.FC<Props> = ({
   const onClosedOpenChange = () => {
     setIsClosedIssuesChecked((prevState) => !prevState);
   };
+  
+  if (error) {
+    return <div>error</div>;
+  }
 
   return (
     <>
@@ -72,12 +72,15 @@ export const IssueList: React.FC<Props> = ({
           }}
         />
       )}
-      {loading && <div data-testid="loading">loading</div>}
-      <ul data-testid={testId} className={styles.IssueList}>
-        {data?.repository?.issues.edges?.map((edge) => (
-          <IssueListItem key={edge?.node?.title} node={edge?.node as any} />
-        ))}
-      </ul>
+      {loading ? (
+        <div data-testid="loading">loading</div>
+      ) : (
+        <ul data-testid={testId} className={styles.IssueList}>
+          {data?.repository?.issues.edges?.map((edge) => (
+            <IssueListItem key={edge?.node?.title} node={edge?.node as any} />
+          ))}
+        </ul>
+      )}
     </>
   );
 };

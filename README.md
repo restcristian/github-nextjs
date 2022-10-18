@@ -10,6 +10,7 @@ This projects uses:
 - TypeScript
 - Jest
 - yarn 
+- Gitbub Actions to run the tests and lint
 
 ## Getting Started
 

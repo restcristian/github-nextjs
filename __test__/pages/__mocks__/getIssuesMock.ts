@@ -7,6 +7,7 @@ export const getIssuesMock = [
       variables: {
         owner: "reactjs",
         name: "reactjs.org",
+        status: null
       },
     },
     result: {
