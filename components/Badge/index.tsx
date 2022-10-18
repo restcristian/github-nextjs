@@ -3,7 +3,7 @@ import classnames from "classnames";
 import styles from "./Badge.module.scss";
 import { IssueState } from "@/__generated__/globalTypes";
 
-interface Props {
+export interface Props {
   status: IssueState;
   testId?: string;
 }
